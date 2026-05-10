@@ -1,8 +1,4 @@
-/* ANSI C version of the Python script */
-/* Compile with:
-   gcc -ansi -pedantic -O2 player.c -o player
-*/
-
+/* C89 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
