@@ -3,7 +3,8 @@
 ## Play Bad Apple!
 
 ```
-$ python run.py
+gcc -O3 -flto -std=c89 run.c -o run
+./run
 ```
 
 ## Dependencies
@@ -14,3 +15,7 @@ $ python run.py
 
 > OpenCV with python package installed and well configured.  
 > pip package: ```image```
+
+## Notes
+
+ - Default play.txt is 100x30. I am planning on making a new version that is 80x25 for VGA text mode so it can render on normal linux/bsd/elks terminals without x11/wayland
