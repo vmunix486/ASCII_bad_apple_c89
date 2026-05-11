@@ -101,8 +101,8 @@ if __name__ == "__main__":
 
             ascii_frame = convert_image_to_ascii(
                 pil_image,
-                new_width=100,
-                new_height=30
+                new_width=80,
+                new_height=25
             )
 
             frames.append(ascii_frame)
