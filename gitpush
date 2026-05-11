@@ -1,5 +1,5 @@
 #!/bin/sh
 git add .
 git commit
-git push origin main --verbose
-!!
+git push
+

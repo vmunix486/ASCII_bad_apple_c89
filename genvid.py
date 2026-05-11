@@ -9,7 +9,7 @@ ASCII_CHARS = (
 )
 
 
-def scale_image(image, new_width=80, new_height=25):
+def scale_image(image, new_width=100, new_height=30):
     """
     Resize image while preserving aspect ratio.
     """
@@ -101,8 +101,8 @@ if __name__ == "__main__":
 
             ascii_frame = convert_image_to_ascii(
                 pil_image,
-                new_width=80,
-                new_height=25
+                new_width=100,
+                new_height=30
             )
 
             frames.append(ascii_frame)
